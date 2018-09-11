@@ -34,16 +34,15 @@ void pepe()
 
 void tears()
 {
+  triangle(171,x,161,x+20,180,x+20);
+  arc(171,x+20,19,19,0, PI+QUARTER_PI, OPEN);
+  triangle(251,x,241,x+20,260,x+20);
+  arc(251,x+20,19,19,0, PI+QUARTER_PI, OPEN);
   fill(5,32,255);
   x=x+2;
   if(x>240)
     x=170;
  
-  triangle(171,x,161,x+20,180,x+20);
-  arc(171,x+20,19,19,0, PI+QUARTER_PI, OPEN);
-  triangle(251,x,241,x+20,260,x+20);
-  arc(251,x+20,19,19,0, PI+QUARTER_PI, OPEN);
-
 }
  
 void text()
