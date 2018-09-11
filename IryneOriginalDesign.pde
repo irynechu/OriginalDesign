@@ -9,7 +9,6 @@ void setup()
 void draw()
 {
  pepe();
- eyes();
  tears();
  text();
 }
@@ -21,10 +20,6 @@ void pepe()
   ellipse(210,230,150,80);
   ellipse(170,140,80,90);
   ellipse(250,140,80,90);
-  
- }
- {
- void eyes()
   fill(185,13,13);
   ellipse(210,230,140,20);
   fill(255,252,252);
@@ -34,7 +29,7 @@ void pepe()
   ellipse(170,140,20,20);
   ellipse(250,140,20,20);
   line(145,230,270,230);
- }
+ 
 }
 
 void tears()
