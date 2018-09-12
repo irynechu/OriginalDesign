@@ -43,9 +43,6 @@ void tears()
   arc(171,x+20,19,19,0, PI+QUARTER_PI, OPEN);
   triangle(251,x,241,x+20,260,x+20);
   arc(251,x+20,19,19,0, PI+QUARTER_PI, OPEN);
-  //x=x+2;
-  //if(x>240)
-   // x=170;
  
 }
  
