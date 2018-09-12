@@ -23,8 +23,8 @@ void pepe()
   fill(185,13,13);
   ellipse(210,230,140,20);
   fill(255,252,252);
-  arc(170,140,80,30,0, PI+QUARTER_PI, CHORD);
-  arc(250,140,80,30,0, PI+QUARTER_PI, CHORD);
+  arc(170,140,80,30,0, PI+QUARTER_PI, OPEN);
+  arc(250,140,80,30,0, PI+QUARTER_PI, OPEN);
   fill(0,0,0);
   ellipse(170,140,20,20);
   ellipse(250,140,20,20);
